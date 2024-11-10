@@ -1,0 +1,60 @@
+.testimonial-container{
+  padding: 60px 20px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+.vision-values-section{
+  padding: 40px 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 60px;
+}
+.vision-values-header{
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #333;
+  text-transform: uppercase;
+}
+.vision-values-container{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.vision-item{
+  width: 30%;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+.vision-item:hover{
+  transform: translateY(-10px);
+}
+.vision-item h4{
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 15px;
+}
+.vision-item p{
+  font-size: 18px;
+  color: #555;
+}
+.vision-item .icon{
+  font-size: 40px;
+  color: #5cb85c;
+  margin-bottom: 20px;
+}
+@media (max-width: 768px){
+  .vision-values-container{
+    flex-direction: column;
+    align-items: center;
+  }
+  .vision-item{
+    width: 80%;
+    margin-bottom: 20px;
+  }
+}
